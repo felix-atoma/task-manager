@@ -1,12 +1,16 @@
-# React + Vite
+# React + Tailwind Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Complete task management (CRUD operations)
+- Dark/light mode toggle
+- API integration with JSONPlaceholder
+- Responsive design
+- Local storage persistence
 
-Currently, two official plugins are available:
+## Setup
+1. Clone repository
+2. Install dependencies: `pnpm install`
+3. Start dev server: `pnpm dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+[Live Demo on Vercel](https://task-manager-azure-two.vercel.app/)
